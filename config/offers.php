@@ -1,0 +1,55 @@
+<?php
+
+return [
+    'linger-longer' => [
+        'name' => 'Stay a little longer',
+        'label' => 'THE SLOW STAY',
+        'highlight' => 'A little more island time',
+        'summary' => 'Unpack, unwind, and settle into the rhythm of Addu Meedhoo with a longer escape.',
+        'description' => 'Some places deserve more than a fleeting visit. This sample long-stay package is designed for quiet mornings, unhurried island walks, and the pleasure of feeling at home at The Nest.',
+        'image' => 'photo-1507525428034-b723cf961d3e',
+        'alt' => 'A quiet tropical shoreline with soft sand and clear water',
+        'photos' => [
+            ['photo-1507525428034-b723cf961d3e', 'A quiet tropical shoreline with soft sand and clear water'],
+            ['photo-1518837695005-2083093ee35b', 'Gentle ocean waves'],
+            ['photo-1611892440504-42a792e24d32', 'A comfortable room for your island stay'],
+        ],
+        'stay' => '5 nights or more',
+        'includes' => ['Sample 10% saving on the room rate', 'Daily breakfast for two', 'A welcome refreshment on arrival'],
+        'terms' => ['Minimum stay of five consecutive nights.', 'Subject to room availability and confirmation by The Nest.', 'Cannot be combined with other offers. Taxes and transfers are excluded.'],
+    ],
+    'early-escape' => [
+        'name' => 'Something to look forward to',
+        'label' => 'THE EARLY ESCAPE',
+        'highlight' => 'Plan ahead. Breathe easier.',
+        'summary' => 'Put your next island chapter in the calendar and enjoy a thoughtful reward for planning ahead.',
+        'description' => 'Give yourself an escape to look forward to. This illustrative advance-booking offer combines a sample room saving with the everyday comforts of a stay at The Nest.',
+        'image' => 'photo-1611892440504-42a792e24d32',
+        'alt' => 'A welcoming bedroom with soft furnishings and natural light',
+        'photos' => [
+            ['photo-1611892440504-42a792e24d32', 'A welcoming bedroom with soft furnishings and natural light'],
+            ['photo-1618773928121-c32242e63f39', 'Comfortable bedroom interior'],
+            ['photo-1507525428034-b723cf961d3e', 'A moment by the tropical shoreline'],
+        ],
+        'stay' => 'Book 30 days ahead',
+        'includes' => ['Sample 15% saving on the room rate', 'Daily breakfast for two', 'Tea and coffee in your room'],
+        'terms' => ['Book at least 30 days before arrival.', 'Minimum stay of three nights. Advance payment and cancellation conditions require confirmation.', 'Subject to availability. Taxes and transfers are excluded.'],
+    ],
+    'island-for-two' => [
+        'name' => 'Just the two of you',
+        'label' => 'TIME TOGETHER',
+        'highlight' => 'Less rushing. More us.',
+        'summary' => 'Leave a little room for slow breakfasts, shared discoveries, and time together.',
+        'description' => 'An intimate island break with a few thoughtful extras. This sample couples package is an invitation to pause together and discover the quieter side of the Maldives.',
+        'image' => 'photo-1518837695005-2083093ee35b',
+        'alt' => 'Gentle ocean waves reaching a tranquil shore',
+        'photos' => [
+            ['photo-1518837695005-2083093ee35b', 'Gentle ocean waves reaching a tranquil shore'],
+            ['photo-1611892440504-42a792e24d32', 'A comfortable room for your island stay'],
+            ['photo-1507525428034-b723cf961d3e', 'Sunlit sand and a tropical shoreline'],
+        ],
+        'stay' => '3 nights for two guests',
+        'includes' => ['Daily breakfast for two', 'One sample private dinner experience', 'A welcome refreshment for two'],
+        'terms' => ['Minimum stay of three nights for two adults.', 'Dinner arrangements and dietary requirements must be confirmed in advance.', 'Subject to availability. Room rates, taxes, and transfers require confirmation.'],
+    ],
+];
